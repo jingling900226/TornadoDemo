@@ -1,15 +1,28 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# auth : pangguoping
+# auth : wangling
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String, ForeignKey, UniqueConstraint, Index
 from sqlalchemy.orm import sessionmaker, relationship
-from sqlalchemy import create_engine
 
-engine = create_engine("mysql+pymysql://mombaby:098f6bcd4621d373cade4e832627b4f6@127.0.0.1:3308/erp", max_overflow=5)
+from sqlalchemy import Column, text, or_, and_
+from sqlalchemy.sql.expression import func, desc
+from sqlalchemy.dialects.mysql import INTEGER, VARCHAR, ENUM, TINYINT, DATETIME, TIMESTAMP, DECIMAL, TEXT
+import logging
+import datetime
+import control
+from sqlalchemy import Column, text, or_, and_
+from sqlalchemy.sql.expression import func, desc
+from sqlalchemy.dialects.mysql import INTEGER, VARCHAR, ENUM, TINYINT, DATETIME, TIMESTAMP, DECIMAL, TEXT
 
-Base = declarative_base()
+from lib import utils
+from settings import DB_KTV
+from mysql.base import NotNullColumn, Base
+from lib.decorator import model_to_dict, models_to_list, filter_update_data, tuple_to_dict
 
+
+from mysql import base as Base
+from settings import DB_KTV
 # 创建单表
 class Users(Base):
     __tablename__ = 'users'
@@ -55,27 +68,18 @@ class Server(Base):
     hostname = Column(String(64), unique=True, nullable=False)
     port = Column(Integer, default=22)
 
-#定义初始化数据库函数
-def init_db():
-    Base.metadata.create_all(engine)
 
-#顶固删除数据库函数
-def drop_db():
-    Base.metadata.drop_all(engine)
+class APIModel(object):
+    def __init__(self, pdb):
+        self.pdb = pdb
+        self.master=pdb.get_session(DB_KTV,master=True)
+        self.slave=pdb.get_session(DB_KTV)
 
-# drop_db()
-# init_db()
 
-#创建mysql操作对象
-Session = sessionmaker(bind=engine)
-session = Session()
-#增加
-obj = Users(name='alex',extra='sb')
-session.add(obj)
-#add_all 列表形式
-session.add_all([
-    Users(name='cc',extra='cow'),
-    Users(name='dd',extra='cowcow')
-])
-#提交
-session.commit()
+    def add_user(self):
+        obj=Users(name='wangyi',extra='wangyi111')
+        self.master.add(obj)
+        self.master.commit()
+
+
+

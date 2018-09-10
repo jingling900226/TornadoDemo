@@ -20,13 +20,16 @@
     <SUITE FILE_PATH="coverage/tornaT$init.coverage" NAME="init Coverage Results" MODIFIED="1536300442760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TornadoDemo$init.coverage" NAME="init Coverage Results" MODIFIED="1536387772403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="TornadoDemo" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="init.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/init.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="100">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" selection-end-column="26" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -34,56 +37,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.py">
+      <file leaf-file-name="model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysql/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+            <state relative-caret-position="182">
+              <caret line="72" column="28" lean-forward="true" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#64#119#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/handler/test.py">
+        <entry file="file://$PROJECT_DIR$/mysql/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="15" column="83" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="50">
+              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basic_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../erp_server_offline/code/mysql/basic_data.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mysql/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="model.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mysql/model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="80" column="16" lean-forward="true" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
-              <folding>
-                <element signature="e#67#122#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="175">
+              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../erp_server_offline/code/mysql/__init__.py">
+        <entry file="file://$PROJECT_DIR$/../value_added/mysql/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+            <state relative-caret-position="150">
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vod_new.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../value_added/control/vod_new.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -100,16 +97,23 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>dd_handlers</find>
+      <find>init</find>
+      <find>pdb</find>
+      <find>create_engine</find>
+      <find>sessionmaker(bind=engine)</find>
+      <find>add</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/../value_added</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../erp_server_offline" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../value_added" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../erp_server_offline/code/app.py" />
-        <option value="$PROJECT_DIR$/../value_added/app.py" />
         <option value="$PROJECT_DIR$/init.py" />
         <option value="$PROJECT_DIR$/static/index.html" />
         <option value="$PROJECT_DIR$/static/poem.html" />
@@ -118,8 +122,15 @@
         <option value="$PROJECT_DIR$/static/inde.html" />
         <option value="$PROJECT_DIR$/handler/inde.html" />
         <option value="$PROJECT_DIR$/handler/test.py" />
-        <option value="$PROJECT_DIR$/mysql/test.py" />
+        <option value="$PROJECT_DIR$/handler/__init__.py" />
+        <option value="$PROJECT_DIR$/../value_added/init.py" />
+        <option value="$PROJECT_DIR$/../value_added/app.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/../value_added/mysql/__init__.py" />
+        <option value="$PROJECT_DIR$/../value_added/mysql/api.py" />
         <option value="$PROJECT_DIR$/mysql/model.py" />
+        <option value="$PROJECT_DIR$/mysql/test.py" />
+        <option value="$PROJECT_DIR$/mysql/__init__.py" />
       </list>
     </option>
   </component>
@@ -134,7 +145,7 @@
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="58" />
-    <option name="y" value="42" />
+    <option name="y" value="23" />
     <option name="width" value="1382" />
     <option name="height" value="877" />
   </component>
@@ -154,11 +165,25 @@
             <path>
               <item name="TornadoDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="TornadoDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="control" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TornadoDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TornadoDemo" type="462c0819:PsiDirectoryNode" />
               <item name="handler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TornadoDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="TornadoDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TornadoDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="value_added" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TornadoDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="value_added" type="462c0819:PsiDirectoryNode" />
               <item name="mysql" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -178,6 +203,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mysql" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/handler" />
     </key>
@@ -394,22 +422,22 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.30666667" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.31151515" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32848486" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.1139394" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22031474" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990177" visible="true" weight="0.22317597" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.50098234" side_tool="true" weight="0.23283581" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,191 +448,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../erp_server_offline/code/init.py</url>
-          <line>3</line>
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/poem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handler/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/init.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handler/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/init.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="24" selection-start-line="24" selection-end-line="32" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../value_added/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3825">
-          <caret line="163" column="17" selection-start-line="163" selection-start-column="17" selection-end-line="163" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handler/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/init.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../value_added/requirement.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-172" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../value_added/lib/uimethods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-712">
-          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../erp_server_offline/code/auto_handle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-407" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../value_added/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="152" column="36" lean-forward="true" selection-start-line="152" selection-start-column="36" selection-end-line="152" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/uuid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="601" selection-start-line="601" selection-end-line="601" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../erp_server_offline/code/init.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-          <folding>
-            <element signature="e#47#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../erp_server_offline/code/handler/order.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2571" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/lib/python3.6/site-packages/tornado/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="295" selection-start-line="295" selection-end-line="295" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/lib/python3.6/site-packages/tornado/ioloop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="220" selection-start-line="220" selection-end-line="220" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../erp_server_offline/code/lib/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15819" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../erp_server_offline/code/lib/uimodules.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../erp_server_offline/code/handler/booking.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31" />
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/posixpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="368" selection-start-line="368" selection-end-line="368" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../erp_server_offline/code/handler/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -616,13 +463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="255" selection-start-line="255" selection-end-line="255" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/lib/python3.6/site-packages/tornado/web.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="2194" selection-start-line="2194" selection-end-line="2194" />
         </state>
       </provider>
     </entry>
@@ -717,16 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/init.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/poem.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -772,9 +602,182 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/handler/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../erp_server_offline/code/mysql/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../erp_server_offline/code/init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="e#47#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venv/lib/python3.6/site-packages/tornado/web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="3070" column="8" selection-start-line="3070" selection-start-column="8" selection-end-line="3070" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../value_added/lib/uimodules.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#47#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../value_added/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="151" column="30" lean-forward="true" selection-start-line="151" selection-start-column="30" selection-end-line="151" selection-end-column="30" />
+          <folding>
+            <element signature="e#47#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../value_added/handler/zz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="13" column="134" selection-start-line="13" selection-start-column="134" selection-end-line="13" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../value_added/lib/uimethods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding>
+            <element signature="e#47#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venv/lib/python3.6/site-packages/sqlalchemy/orm/scoping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venv/lib/python3.6/site-packages/sqlalchemy/orm/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="2889" column="8" selection-start-line="2889" selection-start-column="8" selection-end-line="2889" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../value_added/init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../value_added/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../value_added/lib/decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/_collections_abc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="527" column="37" lean-forward="true" selection-start-line="527" selection-start-column="37" selection-end-line="527" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../value_added/mysql/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#47#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../value_added/mysql/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="560" column="53" selection-start-line="560" selection-start-column="53" selection-end-line="560" selection-end-column="53" />
+          <folding>
+            <element signature="e#47#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/base.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../value_added/control/zz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="e#47#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="72" column="28" lean-forward="true" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
+          <folding>
+            <element signature="e#64#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../value_added/mysql/vod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="342" column="8" selection-start-line="342" selection-start-column="8" selection-end-line="342" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../value_added/control/vod_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/handler/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="375">
           <caret line="15" column="83" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -782,20 +785,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../erp_server_offline/code/mysql/__init__.py">
+    <entry file="file://$PROJECT_DIR$/init.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/model.py">
+    <entry file="file://$PROJECT_DIR$/mysql/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="80" column="16" lean-forward="true" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
-          <folding>
-            <element signature="e#67#122#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="50">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../value_added/mysql/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>

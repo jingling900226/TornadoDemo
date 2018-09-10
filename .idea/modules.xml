@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../erp_server_offline/.idea/erp_server_offline.iml" filepath="$PROJECT_DIR$/../erp_server_offline/.idea/erp_server_offline.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/tornaT.iml" filepath="$PROJECT_DIR$/.idea/tornaT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../value_added/.idea/value_added.iml" filepath="$PROJECT_DIR$/../value_added/.idea/value_added.iml" />
     </modules>
   </component>
 </project>
