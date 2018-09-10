@@ -4,12 +4,12 @@
 
 from sqlalchemy.orm import sessionmaker,scoped_session
 from sqlalchemy import create_engine
-
+from mysql.user import UserModel
 from settings import MYSQL_KTV
 import random
 import logging
 from tornado.options import options
-engine = create_engine("mysql+pymysql://mombaby:098f6bcd4621d373cade4e832627b4f6@127.0.0.1:3308/erp", max_overflow=5)
+# engine = create_engine("mysql+pymysql://mombaby:098f6bcd4621d373cade4e832627b4f6@127.0.0.1:3308/erp", max_overflow=5)
 
 def create_session(engine):
     if not engine:
@@ -31,6 +31,7 @@ class Database(object):
         }
 
         self.init_session ()
+        self.user=UserModel(self)
 
 
     def _session(self, user, passwd, host, port, db, master=True):

@@ -69,14 +69,14 @@ class Server(Base):
     port = Column(Integer, default=22)
 
 
-class APIModel(object):
+class UserModel(object):
     def __init__(self, pdb):
         self.pdb = pdb
         self.master=pdb.get_session(DB_KTV,master=True)
         self.slave=pdb.get_session(DB_KTV)
 
 
-    def add_user(self):
+    def addUser(self):
         obj=Users(name='wangyi',extra='wangyi111')
         self.master.add(obj)
         self.master.commit()
