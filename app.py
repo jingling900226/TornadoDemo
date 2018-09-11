@@ -8,8 +8,8 @@ from tornado.httpserver import HTTPServer
 
 STATIC_PATH = os.path.join(sys.path[0], 'static')
 URLS=[(
-    # r'192\.168\.1\.105:8888',
-    r'192\.168\.9\.5:8888',
+    # r'192\.168\.9\.5:8888',
+    r'1\.119\.144\.204:9201',
         (r'/(.*\.txt)', web.StaticFileHandler, {'path': STATIC_PATH}),
         (r'/','handler.test.WHandler'),
         # (r'/','handler.test.MainHandler'),
