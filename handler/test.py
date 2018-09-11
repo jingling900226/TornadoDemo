@@ -1,6 +1,6 @@
 import tornado.web
 import os
-
+from control import ctrl
 
 class PoHandler(tornado.web.RequestHandler):
     def post (self):
@@ -12,5 +12,10 @@ class PoHandler(tornado.web.RequestHandler):
                      difference=noun3)
 
 class WHandler(tornado.web.RequestHandler):
-    def get (self):
-        self.render(os.path.join(os.path.abspath(os.path.join(os.getcwd())),"static/index.html"))
+    # def get (self):
+    #     self.render(os.path.join(os.path.abspath(os.path.join(os.getcwd())),"static/index.html"))
+    def post(self):
+        res=ctrl.user_add()
+        self.send_json ({
+            'data': res
+        })
