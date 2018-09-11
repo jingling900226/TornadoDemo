@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from control.user_mg import UserCtrl
+from control.user import UserCtrl
 from mysql import pdb
 
 class Ctrl(object):

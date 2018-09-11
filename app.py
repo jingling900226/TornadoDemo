@@ -9,7 +9,7 @@ from tornado.httpserver import HTTPServer
 STATIC_PATH = os.path.join(sys.path[0], 'static')
 URLS=[(
     # r'192\.168\.9\.5:8888',
-    r'1\.119\.144\.204:9201',
+    r'1\.119\.144\.204:9222',
         (r'/(.*\.txt)', web.StaticFileHandler, {'path': STATIC_PATH}),
         (r'/','handler.test.WHandler'),
         # (r'/','handler.test.MainHandler'),
@@ -38,8 +38,8 @@ class Application(web.Application):
 def run():
     application = Application ()
     http_server = HTTPServer(application,xheaders=True)
-    http_server.listen(8888)
-    print('running on port 8888')
+    http_server.listen(9100)
+    print('running on port 9100')
 
 
 
