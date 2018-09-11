@@ -3,7 +3,7 @@
 # auth : wangling
 from sqlalchemy import Column, Integer, String, ForeignKey, UniqueConstraint, Index
 
-from mysql import base as Base
+from mysql.base import  Base
 from settings import DB_KTV
 # 创建单表
 class Users(Base):
