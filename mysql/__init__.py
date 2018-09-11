@@ -27,6 +27,7 @@ class Database(object):
         self.kwargs = {
             'pool_recycle': 3600,
             'echo': options.debug,
+
             'echo_pool': options.debug
         }
 
