@@ -35,13 +35,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysql/user.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="8" />
+            <state relative-caret-position="175">
+              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding>
-                <element signature="e#64#119#0" expanded="true" />
+                <element signature="e#65#148#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,7 +80,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="400">
@@ -154,7 +154,6 @@
         <option value="$PROJECT_DIR$/mysql/test.py" />
         <option value="$PROJECT_DIR$/control/__init__.py" />
         <option value="$PROJECT_DIR$/mysql/__init__.py" />
-        <option value="$PROJECT_DIR$/mysql/user.py" />
         <option value="$PROJECT_DIR$/../value_added/mysql/__init__.py" />
         <option value="$PROJECT_DIR$/../value_added/control/zz.py" />
         <option value="$PROJECT_DIR$/../value_added/control/vod_new.py" />
@@ -163,6 +162,7 @@
         <option value="$PROJECT_DIR$/handler/base.py" />
         <option value="$PROJECT_DIR$/handler/test.py" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/mysql/user.py" />
       </list>
     </option>
   </component>
@@ -817,16 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="8" />
-          <folding>
-            <element signature="e#64#119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/control/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -853,6 +843,16 @@
           <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#65#148#0" expanded="true" />
           </folding>
         </state>
       </provider>

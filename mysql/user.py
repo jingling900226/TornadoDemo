@@ -1,25 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # auth : wangling
-from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String, ForeignKey, UniqueConstraint, Index
-from sqlalchemy.orm import sessionmaker, relationship
-
-from sqlalchemy import Column, text, or_, and_
-from sqlalchemy.sql.expression import func, desc
-from sqlalchemy.dialects.mysql import INTEGER, VARCHAR, ENUM, TINYINT, DATETIME, TIMESTAMP, DECIMAL, TEXT
-import logging
-import datetime
-import control
-from sqlalchemy import Column, text, or_, and_
-from sqlalchemy.sql.expression import func, desc
-from sqlalchemy.dialects.mysql import INTEGER, VARCHAR, ENUM, TINYINT, DATETIME, TIMESTAMP, DECIMAL, TEXT
-
-from lib import utils
-from settings import DB_KTV
-from mysql.base import NotNullColumn, Base
-from lib.decorator import model_to_dict, models_to_list, filter_update_data, tuple_to_dict
-
 
 from mysql import base as Base
 from settings import DB_KTV
