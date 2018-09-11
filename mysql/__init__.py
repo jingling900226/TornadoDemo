@@ -24,12 +24,12 @@ class Database(object):
             'm': {},
             's': {}
         }
-        self.kwargs = {
-            'pool_recycle': 3600,
-            'echo': options.debug,
-
-            'echo_pool': options.debug
-        }
+        # self.kwargs = {
+        #     'pool_recycle': 3600,
+        #     'echo': options.debug,
+        #
+        #     'echo_pool': options.debug
+        # }
 
         self.init_session ()
         self.user=UserModel(self)
@@ -37,7 +37,8 @@ class Database(object):
 
     def _session(self, user, passwd, host, port, db, master=True):
         schema = self.schema % (user, passwd, host, port, db)
-        engine = create_engine(schema, **self.kwargs)
+        # engine = create_engine(schema, **self.kwargs)
+        engine = create_engine (schema)
         session = create_session(engine)
         print('%s: %s' % ('master' if master else 'slave', schema))
         return session
